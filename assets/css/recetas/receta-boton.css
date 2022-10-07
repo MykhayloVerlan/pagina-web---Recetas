@@ -1,0 +1,7 @@
+.receta__boton {
+    background-color: darkred;
+    border: none;
+    border-radius: 3px;
+    color: beige;
+    padding: 0.5rem;
+}

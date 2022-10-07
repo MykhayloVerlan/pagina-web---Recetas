@@ -1,0 +1,15 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
+
+/* aca hacemos referencia al estilo que quieremos que sea patron en todos los navegadores, pero que no este dentro de normalize.css.
+es un archivo que nos ayudara a definir patrones o diseños en nuestro diseño web.  */

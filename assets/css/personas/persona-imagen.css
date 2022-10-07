@@ -1,0 +1,28 @@
+.persona__imagen {
+    background-color: burlywood;
+    height: 250px;/*con este height le dimos unalturaa  a nuestro bloque rectangular person__imagen, sin eso, no veriamos el backround xq estaba en cero.*/
+    width: 250px;/*con esto le dimos un ancho a nuestro bloque .persona__imagen*/
+}
+
+.persona__imagen--roberta{
+    background-image: url(../../img/personas/roberta.jpg);
+}
+
+.persona__imagen--marcela{
+    background-image: url(../../img/personas/marcela.jpg);
+}
+
+.persona__imagen--andrea{
+    background-image: url(../../img/personas/andrea.jpg);
+}
+
+.persona__imagen{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /*esto es para ocupar el tamaño total de la foto que pusimos en 250x250px*/
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;   
+}
+
+/*debe ir ordenado en orden alfabetico, de la A a la Z*/

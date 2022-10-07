@@ -1,0 +1,31 @@
+.recetas {
+    background-color: gainsboro;
+    display: flex; /*hara q los elementos esten uno al lado del otro*/
+    flex-wrap: wrap;
+    /*se veran los elementos de lineas en columnas, osea hara que se separen las recetas en relacion al ancho de la pantalla. dejando 3 recetas en horizontal.*/
+    
+    /*padding: 5rem 0 0 7rem; lo movi abajo */
+
+    /*el hizo desde receta.css width: calc(25% - 5rem); y yo tenia
+    padding: 5rem 0 0 5rem; y le sume 2 rem al ultimo para que quede 7rem y 7rem a los costados*/
+}
+
+@media screen and (min-width: 0px){
+    .recetas {
+        padding: 2rem 0 0 2rem;   
+    }     
+}
+
+/*hasta 768px es tablet
+hasta 922px es notebook*/
+@media screen and (min-width: 768px)/*tablet*/{
+    .recetas {
+        padding: 5rem 0 0 7rem; 
+    }     
+}
+
+@media screen and (min-width: 922px)/*notebook*/{ 
+    .recetas {
+        padding: 5rem 0 0 7rem;
+    }     
+}

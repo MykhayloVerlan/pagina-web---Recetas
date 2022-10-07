@@ -1,0 +1,32 @@
+.personas{
+    display: flex;/*pondra a los 3 bloques de persona de vertical a horizontal juntos*/
+    justify-content: space-around;
+    /*pondra a los 3 bloques de persona de horizontal juntos a separados.*/
+    padding: 1rem 0 0 0;
+}
+
+.persona{
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------personaassssss*/
+@media screen and (min-width: 0px)/*celular*/{
+    .personas {
+        flex-direction: column;
+        margin: 0 0 2rem 0; 
+    }     
+}
+
+@media screen and (min-width: 768px)/*tablet*/{
+    .personas {
+        flex-direction: row;/*fila*/
+    }     
+}
+
+/*-----------personaaaaaaaaa*/
+@media screen and (min-width: 0px)/*celular*/{
+    .persona {
+        margin: 0 0 2rem 0; /*abajo*/  
+    }     
+}

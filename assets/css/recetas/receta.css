@@ -1,0 +1,31 @@
+.receta {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /*margin: 0 5rem 5rem 0;
+    width: 25%;lo movemos abajo*/
+    /*el hizo width: calc(25% - 5rem);*/
+}
+
+@media screen and (min-width: 0px){
+    .receta {
+        margin: 0 1rem 1rem 0;
+        width: 90%;    
+    }     
+}
+
+/*hasta 768px es tablet
+hasta 922px es notebook*/
+@media screen and (min-width: 768px)/*tablet*/{
+    .receta {
+        margin: 0 5rem 5rem 0;
+        width: 25%; 
+    }     
+}
+
+@media screen and (min-width: 922px)/*notebook*/{ 
+    .receta {
+        margin: 0 5rem 5rem 0;
+        width: 25%; 
+    }     
+}

@@ -1,0 +1,7 @@
+.pie-de-pagina {
+    background-color: lightgray;
+    color: grey;
+    text-align: right;
+    padding: 1rem;
+    text-transform: lowercase;
+}

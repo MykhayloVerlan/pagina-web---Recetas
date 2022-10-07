@@ -1,0 +1,4 @@
+.menu__lista {
+    display: flex;
+    /* esto hara que los enlaces se ajustan uno al lado del otro */
+}

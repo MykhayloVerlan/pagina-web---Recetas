@@ -1,0 +1,22 @@
+.banner__imagen {
+    background-image: url(../../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*estas 3 opciones finales es para ocupar el tamaño donde ira el banner y q no se vea separado o en cuadraditos.*/
+    width: 100%;
+}
+
+/*para pantallas chicas sacaremos el heigt*/
+@media screen and (min-width: 0px){
+    .banner__imagen {
+        height: calc(100vh - 51px);
+        /*le redujimos los px para pantalla chica*/        
+    }     
+}
+
+@media screen and (min-width: 768px){
+    .banner__imagen {
+        height: calc(100vh - 72px); /*viewport height el tamaño del navegador */       
+    }     
+}

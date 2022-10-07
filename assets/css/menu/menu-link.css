@@ -1,0 +1,17 @@
+.menu__link {
+    color: #808080;
+    margin-right: 1.25rem; /*separacion entre enlaces*/
+    text-decoration: none;/*el subrayado del enlace desaparecio*/
+    text-transform: lowercase;/*transforma todo el texto a minuscula*/
+}
+
+.activo{
+    color: #333333;
+    font-weight: bold;
+    /*el primer enlace inicio estara en color negrito para indicar q estamos en el enlace inicio*/
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+    /*al pasar el mouse x los enlaces aparecera el subrayado*/
+}

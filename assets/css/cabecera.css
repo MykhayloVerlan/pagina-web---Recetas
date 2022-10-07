@@ -1,0 +1,33 @@
+.cabecera {
+    align-items: center;
+    /* item alineados al centro */
+    background-color: rgb(231, 231, 231);
+    justify-content: space-between;
+    /* justifica contenido para que haya orden entre los lados */
+    display: flex;
+    /*me llevo los enlaces de izq abajo a derecha arriba*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/*con media query haremos q este codigo funcione tanto en pc como celular mas pequeño, lo de abajo es para pantallas chiquitas*/
+@media screen and (min-width:0px){
+    /*vamos a definir el comportamiento q tendra esta pantalla, min width el minimo de ancho de cero*/
+    .cabecera {
+        justify-content: center;
+        /*enviara todo al centro*/
+        padding: 0 1rem ,
+    }
+    
+}
+
+/*y para pantallas de ancho mas de 768px aplciaremos estas opciones, es necesario poner esta opcion xq si no solo se mantendria la de arriba. y de esta forma al agrandar la pantalla mas de 768px vamos a ver que se va ajustar a las opciones de abajo.*/
+@media screen and (min-width:768px){
+    /*vamos a definir el comportamiento q tendra esta pantalla, min width el minimo de ancho de cero*/
+    .cabecera {
+        justify-content: space-between;
+        /*enviara todo al centro*/
+        padding: 0 5rem,
+    }
+    
+}
